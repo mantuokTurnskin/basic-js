@@ -20,6 +20,6 @@ module.exports = function transform(arr) {
       arr2[i - 1] = 'someshit';
     }
   }
-  let arr3 = arr2.filter(el => (arr2[i] !== 'someshit'))
+  let arr3 = arr2.filter(el => (el !== 'someshit'))
   return arr3;
 };
